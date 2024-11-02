@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Manager README</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: #f9f9f9;
+      }
+      .container {
+        text-align: center;
+        width: 100%;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      h1,
+      h2,
+      h3 {
+        color: #333;
+      }
+      code,
+      pre {
+        background-color: #f4f4f4;
+        padding: 10px;
+        border-radius: 4px;
+        font-size: 14px;
+        display: inline-block;
+        margin: 5px 0;
+      }
+      a {
+        color: #3498db;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+        margin: 10px 0;
+      }
+      ul {
+        list-style: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Password Manager</h1>
+      <p><strong>Secure Your Secrets:</strong> A Powerful Password Manager</p>
+      <p>Made by Harsh Chandwani (github: harshchandwani)</p>
+
+      <p>
+        <strong>Backend:</strong>
+        <a href="https://github.com/harshchandwani/password-manager-backend"
+          >https://github.com/harshchandwani/password-manager-backend</a
+        >
+      </p>
+      <p>
+        <strong>Frontend:</strong>
+        <a href="https://github.com/harshchandwani/password-manager-frontend"
+          >https://github.com/harshchandwani/password-manager-frontend</a
+        >
+      </p>
+
+      <h2>Tech Stack</h2>
+
+      <h3>Frontend:</h3>
+      <ul>
+        <li>NextJs: Pages</li>
+        <li>TailwindCSS: Initial Design</li>
+        <li>Lucide React: Icons</li>
+        <li>ShadCn: Designing</li>
+      </ul>
+
+      <h3>Backend:</h3>
+      <ul>
+        <li>Nodejs: Build</li>
+        <li>Express</li>
+        <li>Redis: Queue for Email</li>
+      </ul>
+
+      <h3>Others:</h3>
+      <ul>
+        <li>Postgres: Database</li>
+        <li>BcryptJs: Password Encryption</li>
+        <li>JsonwebToken: Tokens</li>
+        <li>NodeMailer: Email</li>
+        <li>Express Rate Limit: Rate Limiting</li>
+      </ul>
+
+      <h2>Processes</h2>
+
+      <h3>Register</h3>
+      <p><img src="public/register.png" alt="Register Image" /></p>
+
+      <h3>New Password Addition</h3>
+      <p>
+        <img src="public/add-password.png" alt="New Password Addition Image" />
+      </p>
+
+      <h3>Dashboard</h3>
+      <p><img src="public/dashboard.png" alt="Dashboard Image" /></p>
+
+      <h2>To Use</h2>
+
+      <p>Clone the project</p>
+      <pre><code>git clone https://github.com/harshchandwani/password-manager-backend
+git clone https://github.com/harshchandwani/password-manager-frontend</code></pre>
+
+      <p>Go to the project directory</p>
+      <pre><code>cd password-manager-backend</code></pre>
+
+      <p>Install dependencies in Backend</p>
+      <pre><code>npm install</code></pre>
+
+      <p>Start the server in Frontend</p>
+      <pre><code>npm run dev</code></pre>
+
+      <p>Go to project directory and in Backend</p>
+      <pre><code>cd ..
+cd password-manager-backend</code></pre>
+
+      <p>Install dependencies in Backend</p>
+      <pre><code>npm install</code></pre>
+
+      <p>Start the server in Frontend</p>
+      <pre><code>npm run start</code></pre>
+
+      <h2>Environment Variables</h2>
+      <p>
+        To run this project, you will need to add the following environment
+        variables to your <code>.env</code> file. All the variables are in
+        <code>.env.example</code>.
+      </p>
+    </div>
+  </body>
+</html>
